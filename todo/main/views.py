@@ -1,9 +1,9 @@
 from django.shortcuts import render, HttpResponse
 
-def homepage(requests):
+def homepage(request):
     return render(request, 'index.html')
 
-def test(requests):
+def test(request):
     return render(request, 'test.html')
 
 def second(request):
