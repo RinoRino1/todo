@@ -7,6 +7,9 @@
 </head>
 <body>
     <h2>eto testovaya straniza</h2>
-    <h3>для туду листа</h3>
+    <h2>для туду листа</h2>
+    {% for todo in todo_list %}
+        <h3>{{ todo.text }} - {{ todo.is_closed }}</h3>
+    {% endfor %}
 </body>
 </html>
