@@ -94,3 +94,21 @@ section{
     margin: 0 5px;
     cursor: pointer;
 }
+
+.todo_item_marked {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 22%;
+    padding: 10px 15px;
+    background-color: #c8e5e6;
+    margin-bottom: 20px;
+}
+
+.todo_item_done {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 22%;
+    padding: 10px 15px;
+    background-color: #f7f678;
+    margin-bottom: 20px;
+}
